@@ -1,0 +1,161 @@
+{
+  "contract": {
+    "abi_sha256": "484be3b777336eba96bd2341b2dffeb7d3db040031c03e3d30af218ccfe7b8e0",
+    "address": "0x9c65134000Cc72363EB384827f423B82839020d4",
+    "deployed_source_sha256": "b4f21fd33258701a3ef8b77d9b2bdc932180d2737697497f1d14182e005d6b2d",
+    "deployment_tx": "0x1f12b8a767d5b077c559d5607232af66db886e5c0d8f8528c871dceff55e35c6",
+    "execution_result": "SUCCESS",
+    "schema_method_count": 12,
+    "schema_readback_exact": true,
+    "source_readback_exact": true,
+    "source_sha256": "b4f21fd33258701a3ef8b77d9b2bdc932180d2737697497f1d14182e005d6b2d",
+    "status": "FINALIZED"
+  },
+  "correction_basis": [
+    "leader substantive payload must be independently validated and bound to every derived hash, mask, or state field",
+    "registries and fixed capacity must be owner-scoped or safely reclaimable",
+    "submission evidence must resolve to this exact deployed source and full ABI"
+  ],
+  "network": {
+    "chain_id": 61999,
+    "explorer": "https://explorer-studio.genlayer.com",
+    "name": "studionet",
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "observed": {
+    "request": {
+      "checked_at": "2026-09-01T09:03:55.168770Z",
+      "feature_id": "REPORTS",
+      "request_id": "0x3c9f30bad9e7f4ffb4eb1c40a1552c02e4da8c3b:REQ-1",
+      "requested_capability": "Generate the standard usage report for this workspace.",
+      "result": "INCLUDED",
+      "schema": "planright/request/v2",
+      "source": "BASE",
+      "subscriber": "0x3C9F30bAD9e7F4fFb4Eb1C40A1552C02E4da8c3b",
+      "subscription_id": "0x1c1f460dece604c9c200a2b4c48addc2c0e06ef2:SUB-1"
+    },
+    "strict_scalar_domains": true
+  },
+  "owner": "sanity456",
+  "repository": "planright",
+  "runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "schema": "genlayer-intelligent-contract-correction/v4",
+  "supersedes": {
+    "address": "0x86Ca5B4E128B7Ffb540feA1601b85E25b48aAC2d",
+    "reason": "Superseded by the full validator-binding and registry-isolation audit",
+    "source_sha256": "04a2a56ab02767d56bae7f05710150882a6bf01e64f89279da39a65449ed8f65"
+  },
+  "transactions": {
+    "check_feature": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_succeeded": true,
+      "finalized": true,
+      "l1_tx_hash": "0x5e69692ca8715241f61cc8d18b4f57225ffe3ba96fcd397b305f896e7bcdd507",
+      "status": "FINALIZED",
+      "tx_hash": "0x5e69692ca8715241f61cc8d18b4f57225ffe3ba96fcd397b305f896e7bcdd507",
+      "validator_votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ],
+      "verified": true
+    },
+    "deploy": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_succeeded": true,
+      "finalized": true,
+      "l1_tx_hash": "0x1f12b8a767d5b077c559d5607232af66db886e5c0d8f8528c871dceff55e35c6",
+      "status": "FINALIZED",
+      "tx_hash": "0x1f12b8a767d5b077c559d5607232af66db886e5c0d8f8528c871dceff55e35c6",
+      "validator_votes": [
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ],
+      "verified": true
+    },
+    "issue_subscription": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_succeeded": true,
+      "finalized": true,
+      "l1_tx_hash": "0x863d38c5647f78099ea8b0956c0814b5b2e7284f352c6ae60d014b34c8bcca5f",
+      "status": "FINALIZED",
+      "tx_hash": "0x863d38c5647f78099ea8b0956c0814b5b2e7284f352c6ae60d014b34c8bcca5f",
+      "validator_votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "IDLE"
+      ],
+      "verified": true
+    },
+    "publish_catalog": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_succeeded": true,
+      "finalized": true,
+      "l1_tx_hash": "0xd44f38b0f0154d48e9fa6e36166f73c736d82372ffeb8cb38d3c4fe2617f2831",
+      "status": "FINALIZED",
+      "tx_hash": "0xd44f38b0f0154d48e9fa6e36166f73c736d82372ffeb8cb38d3c4fe2617f2831",
+      "validator_votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ],
+      "verified": true
+    },
+    "publish_version": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_succeeded": true,
+      "finalized": true,
+      "l1_tx_hash": "0x28e2d8b1828340627618c08023577f7c874be2ac1f9ff83917876cf383aec7dc",
+      "status": "FINALIZED",
+      "tx_hash": "0x28e2d8b1828340627618c08023577f7c874be2ac1f9ff83917876cf383aec7dc",
+      "validator_votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ],
+      "verified": true
+    }
+  },
+  "verification": {
+    "all_executions_succeeded": true,
+    "all_transactions_finalized": true,
+    "deployed_schema_exact": true,
+    "deployed_source_exact": true,
+    "latest_final_state_readback": true,
+    "leader_payload_injection_tests_passed": true,
+    "local_direct_test_count": 11,
+    "local_five_validator_test_count": 1,
+    "post_consensus_boundary_tests_passed": true,
+    "registry_isolation_tests_passed": false,
+    "synthetic_public_fixture": true
+  },
+  "verified_at": "2026-09-01T09:04:49.896102Z",
+  "wallet": {
+    "cross_repository_wallet_reused": false,
+    "external_encrypted_keystores": true,
+    "fresh_per_repository": true,
+    "other_owner_wallet_reused": false,
+    "owner": "sanity456",
+    "prior_address_overlap_count": 0,
+    "private_material_in_repository": false,
+    "repository": "planright",
+    "roles": {
+      "deployer": "0x1C1F460DecE604c9c200a2B4c48ADDC2C0e06ef2",
+      "role_a": "0x3C9F30bAD9e7F4fFb4Eb1C40A1552C02E4da8c3b",
+      "role_b": "0xc65C17a5bb268349a4Fa227f69C6046a47a92306",
+      "role_c": "0x4F06713492c23f90BA4B1135ed8B72f6102707af"
+    },
+    "workspace_wallet_used": false
+  }
+}
